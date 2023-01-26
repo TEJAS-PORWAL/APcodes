@@ -1,0 +1,16 @@
+[
+  {
+    "city": "patna",
+    "latitude": "25.5941",
+    "longitude": "85.1376",
+    "temperature": "18",
+    "humidity": "88"
+  },
+  {
+    "city":  "bangalore",
+    "latitude": "12.9716",
+    "longitude": "77.5946",
+    "temperature": "27",
+    "humidity": "65"
+  }
+]

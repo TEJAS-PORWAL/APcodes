@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="Deprecated">
+
+    <EditText
+        android:id="@+id/idDisplay"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="16dp"
+        android:hint="1DA19CS078 - Kumar Vedant"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/id1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="61dp"
+        android:text="1"/>
+
+    <Button
+        android:id="@+id/id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="61dp"
+        android:text="2"/>
+
+    <Button
+        android:id="@+id/id3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="204dp"
+        android:layout_y="61dp"
+        android:text="3"/>
+
+    <Button
+        android:id="@+id/id4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="109dp"
+        android:text="4"/>
+
+    <Button
+        android:id="@+id/id5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="109dp"
+        android:text="5"/>
+
+    <Button
+        android:id="@+id/id6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="204dp"
+        android:layout_y="109dp"
+        android:text="6"/>
+
+    <Button
+        android:id="@+id/id7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="157dp"
+        android:text="7"/>
+
+    <Button
+        android:id="@+id/id8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="157dp"
+        android:text="8"/>
+
+    <Button
+        android:id="@+id/id9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="204dp"
+        android:layout_y="157dp"
+        android:text="9"/>
+
+    <Button
+        android:id="@+id/idStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="205dp"
+        android:text="*"/>
+
+    <Button
+        android:id="@+id/id0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="205dp"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/idHash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="204dp"
+        android:layout_y="205dp"
+        android:text="#"/>
+
+    <Button
+        android:id="@+id/idSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="253dp"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/idCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="253dp"
+        android:text="CALL"/>
+
+    <Button
+        android:id="@+id/idDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="204dp"
+        android:layout_y="253dp"
+        android:text="DELETE" />
+
+</AbsoluteLayout>

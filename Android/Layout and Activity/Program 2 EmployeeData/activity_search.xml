@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    tools:ignore="Deprecated">
+    <EditText
+        android:id="@+id/idId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_x="16dp"
+        android:layout_y="16dp"
+        android:hint="Enter Employee ID"/>
+    <Button
+        android:id="@+id/idSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="61dp"
+        android:text="Search"/>
+    <TextView
+        android:id="@+id/idDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="109dp"/>
+</AbsoluteLayout>

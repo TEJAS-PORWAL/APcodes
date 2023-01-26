@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="Deprecated">
+    <EditText
+        android:id="@+id/idId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_x="16dp"
+        android:layout_y="16dp"
+        android:hint="Enter Employee ID"/>
+    <EditText
+        android:id="@+id/idName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_x="16dp"
+        android:layout_y="61dp"
+        android:hint="Enter Employee Name"/>
+    <EditText
+        android:id="@+id/idAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_x="16dp"
+        android:layout_y="106dp"
+        android:hint="Enter Employee Age"/>
+    <EditText
+        android:id="@+id/idAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_x="16dp"
+        android:layout_y="151dp"
+        android:hint="Enter Employee Address"/>
+    <Button
+        android:id="@+id/idInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="196dp"
+        android:text="Insert"/>
+    <Button
+        android:id="@+id/idSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="196dp"
+        android:text="Search"/>
+</AbsoluteLayout>
